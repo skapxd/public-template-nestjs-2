@@ -1,0 +1,3 @@
+GET http://localhost:3000/api/sse?id=123
+Content-Type: application/json
+Accept: application/json

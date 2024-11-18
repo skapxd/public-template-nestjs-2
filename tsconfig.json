@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "#/*": [
+        "*"
+      ]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "types": [
+      "vitest/globals",
+      "node",
+      "./setup-expect.vitest.d.ts",
+      "multer"
+    ]
+  },
+  "include": [
+    "**/**/*.ts",
+    "**/**/*.mjs",
+    "webpack.config.js",
+    "vitest.config.ts"
+  ]
+}
